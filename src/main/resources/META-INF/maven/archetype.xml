@@ -1,0 +1,19 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0
+                               http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+   <id>Архетип SpringBoot-приложения.</id>
+   <sources>
+      <source>src/main/java/Main.java</source>
+      <source>src/main/java/web/MainController.java</source>
+   </sources>
+   <resources>
+      <resource>src/main/resources/application.properties</resource>
+      <resource>src/main/resources/static/index.html</resource>
+      <resource>run.bat</resource>
+   </resources>
+   <testSources>
+      <source>src/test/java/MainTest.java</source>
+      <source>src/test/java/web/MainControllerTest.java</source>
+   </testSources>
+</archetype>
